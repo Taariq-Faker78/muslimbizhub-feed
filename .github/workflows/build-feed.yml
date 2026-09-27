@@ -1,0 +1,55 @@
+# Rebuilds content.json from muslimbizhub.co.za and commits it when the directory has changed.
+# The MuslimBizHub app reads the committed file on launch:
+#   https://raw.githubusercontent.com/Taariq-Faker78/muslimbizhub-feed/main/content.json
+
+name: Build feed
+
+on:
+  schedule:
+    - cron: '17 */6 * * *' # every 6 hours, off the hour to avoid GitHub's busiest minute
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: build-feed
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      # Fails, and so commits nothing, if the site's markup has moved or the host blocks the request.
+      - name: Build content.json from the site
+        run: node scripts/build-feed.mjs
+
+      # updatedAt changes on every run, so compare everything else. GitHub switches off schedules
+      # after 60 days without a commit, so a quiet site still gets a refreshed date every 50 days.
+      - name: Commit if the directory changed
+        run: |
+          changed=false
+          if ! git cat-file -e HEAD:content.json 2>/dev/null; then
+            changed=true
+          elif ! diff -q <(git show HEAD:content.json | jq -S 'del(.updatedAt)') <(jq -S 'del(.updatedAt)' content.json) >/dev/null; then
+            changed=true
+          fi
+
+          last=$(git log -1 --format=%ct)
+          stale=$(( $(date +%s) - last > 50 * 24 * 3600 ))
+
+          if [ "$changed" = true ] || [ "$stale" = 1 ]; then
+            git config user.name 'github-actions[bot]'
+            git config user.email '41898333+github-actions[bot]@users.noreply.github.com'
+            git add content.json
+            git commit -m "Update feed from muslimbizhub.co.za"
+            git push
+          else
+            echo 'No change on the site.'
+          fi

@@ -1,0 +1,564 @@
+{
+  "version": 1,
+  "updatedAt": "2026-09-27T16:39:48.106Z",
+  "stats": [
+    {
+      "label": "business categories",
+      "derive": "categories"
+    },
+    {
+      "label": "regions",
+      "derive": "regions"
+    },
+    {
+      "value": "47",
+      "label": "local areas"
+    }
+  ],
+  "sectors": [
+    {
+      "slug": "food-halaal",
+      "name": "Food & Halaal",
+      "listings": 826,
+      "categories": [
+        {
+          "slug": "halal-restaurants",
+          "name": "Halaal Restaurants & Takeaways",
+          "blurb": "Sit-down, takeaway and delivery spots serving halaal food.",
+          "count": 474
+        },
+        {
+          "slug": "halal-butcheries",
+          "name": "Halaal Butcheries & Meat",
+          "blurb": "Butcheries, poultry suppliers and meat wholesalers.",
+          "count": 118
+        },
+        {
+          "slug": "bakeries",
+          "name": "Bakeries & Confectioners",
+          "blurb": "Fresh bread, cakes, savouries and sweetmeats.",
+          "count": 54
+        },
+        {
+          "slug": "grocers-spices",
+          "name": "Grocers, Spices & Supermarkets",
+          "blurb": "Supermarkets, spice shops and specialty grocers.",
+          "count": 25
+        },
+        {
+          "slug": "caterers",
+          "name": "Caterers & Food Services",
+          "blurb": "Catering for weddings, functions and corporate events.",
+          "count": 36
+        },
+        {
+          "slug": "coffee-desserts",
+          "name": "Coffee Shops & Dessert Bars",
+          "blurb": "Cafés, dessert bars and ice cream parlours.",
+          "count": 13
+        },
+        {
+          "slug": "home-industry",
+          "name": "Home Industry & Food Producers",
+          "blurb": "Home bakers, frozen foods, pickles and preserves.",
+          "count": 66
+        },
+        {
+          "slug": "abattoirs-processors",
+          "name": "Poultry Farms, Abattoirs & Meat Processors",
+          "blurb": "Halaal abattoirs, poultry farms, meat processors, offal and casings suppliers.",
+          "count": 29
+        },
+        {
+          "slug": "food-manufacturers",
+          "name": "Food & Beverage Manufacturers",
+          "blurb": "Producers of juices, water, snacks, milling and packaged foods.",
+          "count": 11
+        }
+      ]
+    },
+    {
+      "slug": "faith-community",
+      "name": "Faith & Community",
+      "listings": 1868,
+      "categories": [
+        {
+          "slug": "masjids",
+          "name": "Masjids & Islamic Centres",
+          "blurb": "Masjids, musallahs and community centres.",
+          "count": 1048
+        },
+        {
+          "slug": "madrasahs",
+          "name": "Madrasahs & Islamic Schools",
+          "blurb": "Madrasahs, hifz classes and Islamic schools.",
+          "count": 142
+        },
+        {
+          "slug": "islamic-bookshops",
+          "name": "Islamic Bookshops & Gifts",
+          "blurb": "Books, Qurans, prayer items and gifts.",
+          "count": 16
+        },
+        {
+          "slug": "janazah-services",
+          "name": "Janazah & Funeral Services",
+          "blurb": "Ghusl facilities, burial services and funeral transport.",
+          "count": 406
+        },
+        {
+          "slug": "welfare-npos",
+          "name": "Welfare Organisations & NPOs",
+          "blurb": "Charities, feeding schemes and community upliftment.",
+          "count": 209
+        },
+        {
+          "slug": "hajj-umrah",
+          "name": "Hajj & Umrah Operators",
+          "blurb": "Hajj and Umrah packages, guides and travel.",
+          "count": 30
+        },
+        {
+          "slug": "counselling",
+          "name": "Counselling & Family Services",
+          "blurb": "Marriage, family and personal counselling.",
+          "count": 8
+        },
+        {
+          "slug": "radio-media",
+          "name": "Radio & Media",
+          "blurb": "Muslim community radio stations and media outlets.",
+          "count": 9
+        }
+      ]
+    },
+    {
+      "slug": "retail-fashion",
+      "name": "Retail & Fashion",
+      "listings": 130,
+      "categories": [
+        {
+          "slug": "modest-fashion",
+          "name": "Modest Fashion & Abayas",
+          "blurb": "Abayas, scarves, kurtas and modest wear.",
+          "count": 47
+        },
+        {
+          "slug": "clothing-fabrics",
+          "name": "Clothing, Fabrics & Tailors",
+          "blurb": "Clothing stores, fabric shops and tailors.",
+          "count": 30
+        },
+        {
+          "slug": "jewellery",
+          "name": "Jewellery & Watches",
+          "blurb": "Jewellers, gold dealers and watch repairs.",
+          "count": 9
+        },
+        {
+          "slug": "perfumes-cosmetics",
+          "name": "Perfumes, Attar & Cosmetics",
+          "blurb": "Attar, fragrances and halaal cosmetics.",
+          "count": 9
+        },
+        {
+          "slug": "furniture-homeware",
+          "name": "Furniture & Homeware",
+          "blurb": "Furniture, carpets, décor and appliances.",
+          "count": 16
+        },
+        {
+          "slug": "electronics",
+          "name": "Electronics & Cellphones",
+          "blurb": "Phones, computers, repairs and accessories.",
+          "count": 10
+        },
+        {
+          "slug": "wholesale",
+          "name": "Wholesale, Import & Export",
+          "blurb": "Wholesalers, distributors and traders.",
+          "count": 9
+        }
+      ]
+    },
+    {
+      "slug": "professional-services",
+      "name": "Professional Services",
+      "listings": 69,
+      "categories": [
+        {
+          "slug": "accountants",
+          "name": "Accountants & Tax Practitioners",
+          "blurb": "Bookkeeping, tax returns and business advisory.",
+          "count": 10
+        },
+        {
+          "slug": "attorneys",
+          "name": "Attorneys & Legal Services",
+          "blurb": "Attorneys, wills and estates, conveyancing.",
+          "count": 16
+        },
+        {
+          "slug": "islamic-finance",
+          "name": "Islamic Banking & Finance",
+          "blurb": "Shariah-compliant banking, investment and financing.",
+          "count": 6
+        },
+        {
+          "slug": "takaful-insurance",
+          "name": "Takaful & Insurance",
+          "blurb": "Takaful, insurance brokers and cover.",
+          "count": 3
+        },
+        {
+          "slug": "estate-agents",
+          "name": "Estate Agents & Property",
+          "blurb": "Sales, rentals and property management.",
+          "count": 5
+        },
+        {
+          "slug": "it-digital",
+          "name": "IT, Web & Digital Marketing",
+          "blurb": "IT support, websites, software and marketing.",
+          "count": 18
+        },
+        {
+          "slug": "printing-signage",
+          "name": "Printing, Signage & Branding",
+          "blurb": "Printers, signwriters and branded goods.",
+          "count": 8
+        },
+        {
+          "slug": "recruitment",
+          "name": "Recruitment & HR Services",
+          "blurb": "Recruitment agencies, payroll and HR.",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "slug": "health-wellness",
+      "name": "Health & Wellness",
+      "listings": 171,
+      "categories": [
+        {
+          "slug": "doctors",
+          "name": "Doctors & Medical Practices",
+          "blurb": "GPs, specialists and medical centres.",
+          "count": 106
+        },
+        {
+          "slug": "dentists",
+          "name": "Dentists & Orthodontists",
+          "blurb": "Dental practices and orthodontists.",
+          "count": 20
+        },
+        {
+          "slug": "pharmacies",
+          "name": "Pharmacies",
+          "blurb": "Pharmacies and clinics.",
+          "count": 13
+        },
+        {
+          "slug": "hijama-wellness",
+          "name": "Hijama & Natural Wellness",
+          "blurb": "Hijama, physiotherapy and natural health.",
+          "count": 8
+        },
+        {
+          "slug": "gyms-fitness",
+          "name": "Gyms & Ladies-Only Fitness",
+          "blurb": "Gyms, personal trainers and ladies-only classes.",
+          "count": 1
+        },
+        {
+          "slug": "salons-barbers",
+          "name": "Salons, Spas & Barbers",
+          "blurb": "Ladies' salons, spas and barbershops.",
+          "count": 23
+        }
+      ]
+    },
+    {
+      "slug": "home-building-trade",
+      "name": "Home, Building & Trade",
+      "listings": 77,
+      "categories": [
+        {
+          "slug": "builders",
+          "name": "Builders & Construction",
+          "blurb": "Builders, renovations and contractors.",
+          "count": 18
+        },
+        {
+          "slug": "pools",
+          "name": "Pool Construction, Maintenance & Repairs",
+          "blurb": "Swimming pool building, servicing and repairs.",
+          "count": 0
+        },
+        {
+          "slug": "plumbers-electricians",
+          "name": "Plumbers & Electricians",
+          "blurb": "Plumbing, electrical and handyman services.",
+          "count": 27
+        },
+        {
+          "slug": "hardware",
+          "name": "Hardware & Building Supplies",
+          "blurb": "Hardware stores, tiles and building materials.",
+          "count": 20
+        },
+        {
+          "slug": "solar-power",
+          "name": "Solar & Backup Power",
+          "blurb": "Solar installers, inverters and batteries.",
+          "count": 1
+        },
+        {
+          "slug": "cleaning-pest",
+          "name": "Cleaning & Pest Control",
+          "blurb": "Cleaning services and pest control.",
+          "count": 5
+        },
+        {
+          "slug": "security",
+          "name": "Security & Alarm Systems",
+          "blurb": "Armed response, alarms and CCTV.",
+          "count": 6
+        }
+      ]
+    },
+    {
+      "slug": "automotive-transport",
+      "name": "Automotive & Transport",
+      "listings": 111,
+      "categories": [
+        {
+          "slug": "car-dealers",
+          "name": "Car Dealers",
+          "blurb": "New and used vehicle dealerships.",
+          "count": 20
+        },
+        {
+          "slug": "auto-repairs",
+          "name": "Auto Repairs - Mechanical",
+          "blurb": "Mechanics, diagnostics and general vehicle servicing.",
+          "count": 13
+        },
+        {
+          "slug": "auto-electrical",
+          "name": "Auto Repairs - Electrical",
+          "blurb": "Auto electricians, wiring and vehicle electrical repairs.",
+          "count": 6
+        },
+        {
+          "slug": "auto-suspension",
+          "name": "Auto Repairs - Suspension",
+          "blurb": "Suspension, shocks, wheel alignment and steering repairs.",
+          "count": 5
+        },
+        {
+          "slug": "panelbeaters",
+          "name": "Panelbeaters & Spray Painters",
+          "blurb": "Panelbeating, spray painting and accident repairs.",
+          "count": 0
+        },
+        {
+          "slug": "tyres",
+          "name": "Tyres & Fitment Centres",
+          "blurb": "Tyre sales, fitment and wheel alignment.",
+          "count": 0
+        },
+        {
+          "slug": "tyres-parts",
+          "name": "Auto Parts & Accessories",
+          "blurb": "Spares, parts and vehicle accessories.",
+          "count": 2
+        },
+        {
+          "slug": "motorbikes",
+          "name": "Motor Bike Dealers, Accessories and Repairs",
+          "blurb": "Motorcycle dealers, parts, accessories and repair shops.",
+          "count": 48
+        },
+        {
+          "slug": "car-detailing",
+          "name": "Car Detailing, Valet & Car Wash",
+          "blurb": "Car washes, valet services and detailing.",
+          "count": 7
+        },
+        {
+          "slug": "transport-logistics",
+          "name": "Couriers & Logistics",
+          "blurb": "Couriers, removals, shuttles and freight.",
+          "count": 4
+        },
+        {
+          "slug": "transport-tours",
+          "name": "Transport & Tours",
+          "blurb": "Staff transport, airport transfers, private tours, corporate events and private shuttle services.",
+          "count": 6
+        }
+      ]
+    },
+    {
+      "slug": "education-childcare",
+      "name": "Education & Childcare",
+      "listings": 12,
+      "categories": [
+        {
+          "slug": "schools-colleges",
+          "name": "Schools & Colleges",
+          "blurb": "Private schools, colleges and academies.",
+          "count": 3
+        },
+        {
+          "slug": "creches",
+          "name": "Crèches & Aftercare",
+          "blurb": "Crèches, pre-schools and aftercare centres.",
+          "count": 9
+        }
+      ]
+    },
+    {
+      "slug": "events-hospitality",
+      "name": "Events & Hospitality",
+      "listings": 103,
+      "categories": [
+        {
+          "slug": "function-venues",
+          "name": "Wedding & Function Venues",
+          "blurb": "Halls and venues for nikahs, walimahs and functions.",
+          "count": 8
+        },
+        {
+          "slug": "decor-hire",
+          "name": "Décor, Hire & Event Suppliers",
+          "blurb": "Décor, marquees, tables, chairs and crockery hire.",
+          "count": 2
+        },
+        {
+          "slug": "photographers",
+          "name": "Photographers & Videographers",
+          "blurb": "Event, portrait and product photography.",
+          "count": 3
+        },
+        {
+          "slug": "accommodation",
+          "name": "Guesthouses & Accommodation",
+          "blurb": "Muslim-friendly places to stay.",
+          "count": 69
+        },
+        {
+          "slug": "travel-agents",
+          "name": "Travel Agents & Tours",
+          "blurb": "Travel agents, halaal holidays and tours.",
+          "count": 21
+        }
+      ]
+    },
+    {
+      "slug": "industry-agriculture",
+      "name": "Industry & Agriculture",
+      "listings": 12,
+      "categories": [
+        {
+          "slug": "manufacturing",
+          "name": "Manufacturing & Engineering",
+          "blurb": "Manufacturers, engineering and fabrication.",
+          "count": 9
+        },
+        {
+          "slug": "agriculture",
+          "name": "Agriculture & Farming",
+          "blurb": "Farms, livestock, produce and suppliers.",
+          "count": 3
+        }
+      ]
+    }
+  ],
+  "market": [
+    {
+      "slug": "groceries",
+      "name": "Halaal Groceries & Food"
+    },
+    {
+      "slug": "fashion",
+      "name": "Modest Fashion & Apparel"
+    },
+    {
+      "slug": "islamic-essentials",
+      "name": "Islamic Essentials & Devotional Items"
+    },
+    {
+      "slug": "home-decor",
+      "name": "Gifts & Home Decor"
+    },
+    {
+      "slug": "digital",
+      "name": "Digital Products"
+    },
+    {
+      "slug": "events",
+      "name": "Weddings & Events"
+    },
+    {
+      "slug": "health-beauty",
+      "name": "Health & Beauty"
+    },
+    {
+      "slug": "herbal-medicinal",
+      "name": "Herbal & Medicinal"
+    },
+    {
+      "slug": "kids",
+      "name": "Kids & Baby"
+    },
+    {
+      "slug": "other",
+      "name": "Service Board"
+    }
+  ],
+  "regions": [
+    {
+      "slug": "western-cape",
+      "name": "Western Cape"
+    },
+    {
+      "slug": "gauteng",
+      "name": "Gauteng"
+    },
+    {
+      "slug": "tshwane",
+      "name": "Tshwane / Pretoria"
+    },
+    {
+      "slug": "kwazulu-natal",
+      "name": "KwaZulu-Natal"
+    },
+    {
+      "slug": "eastern-cape",
+      "name": "Eastern Cape"
+    },
+    {
+      "slug": "free-state",
+      "name": "Free State"
+    },
+    {
+      "slug": "limpopo",
+      "name": "Limpopo"
+    },
+    {
+      "slug": "mpumalanga",
+      "name": "Mpumalanga"
+    },
+    {
+      "slug": "northern-cape",
+      "name": "Northern Cape"
+    },
+    {
+      "slug": "north-west",
+      "name": "North West"
+    }
+  ]
+}
