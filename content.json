@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-27T16:39:48.106Z",
+  "updatedAt": "2026-10-05T14:47:07.038Z",
   "stats": [
     {
       "label": "business categories",
@@ -184,7 +184,7 @@
     {
       "slug": "professional-services",
       "name": "Professional Services",
-      "listings": 69,
+      "listings": 59,
       "categories": [
         {
           "slug": "accountants",
@@ -220,7 +220,7 @@
           "slug": "it-digital",
           "name": "IT, Web & Digital Marketing",
           "blurb": "IT support, websites, software and marketing.",
-          "count": 18
+          "count": 8
         },
         {
           "slug": "printing-signage",
