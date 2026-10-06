@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-05T14:47:07.038Z",
+  "updatedAt": "2026-10-06T00:05:50.868Z",
   "stats": [
     {
       "label": "business categories",
@@ -423,7 +423,7 @@
     {
       "slug": "events-hospitality",
       "name": "Events & Hospitality",
-      "listings": 103,
+      "listings": 156,
       "categories": [
         {
           "slug": "function-venues",
@@ -447,7 +447,7 @@
           "slug": "accommodation",
           "name": "Guesthouses & Accommodation",
           "blurb": "Muslim-friendly places to stay.",
-          "count": 69
+          "count": 122
         },
         {
           "slug": "travel-agents",
